@@ -1,0 +1,16 @@
+build/
+build-*/
+build-cfl/
+*.o
+*.a
+*.dSYM/
+rv_inspect
+rv_pack
+test_package
+test_lifecycle
+test_stream_cache
+demo.rvp
+*.rvp
+!corpus/**/*.rvp
+!fuzz/corpus/**/*.rvp
+.DS_Store

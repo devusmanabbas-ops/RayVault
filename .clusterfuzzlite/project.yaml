@@ -1,0 +1,15 @@
+homepage: "https://example.invalid/rayvault"
+language: c
+primary_contact: "maintainers@example.invalid"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+main_repo: '.'
+fuzz_targets:
+  - package_session_fuzzer
+  - span_query_fuzzer
+  - wave_stream_fuzzer
+  - dataset_export_fuzzer
+  - repair_reopen_fuzzer
